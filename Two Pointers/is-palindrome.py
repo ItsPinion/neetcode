@@ -19,3 +19,8 @@ class Solution:
             back -= 1
 
         return True
+
+
+solution = Solution()
+print(solution.isPalindrome("A man, a plan, a canal: Panama"))  # Output: True
+print(solution.isPalindrome("race a car"))  # Output: False

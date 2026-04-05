@@ -18,5 +18,5 @@ class Solution:
 
 
 solution = Solution()
-
-print(solution.productExceptSelf([-1, 0, 1, 2, 3]))
+print(solution.productExceptSelf([-1, 0, 1, 2, 3]))  # Output: [0, 6, 0, 0, 0]
+print(solution.productExceptSelf([1, 2, 3, 4]))  # Output: [24, 12, 8, 6]

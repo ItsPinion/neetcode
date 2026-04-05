@@ -22,4 +22,7 @@ print(
     solution.maxArea(
         [1, 7, 1, 1, 1, 1, 2, 5, 12, 3, 500, 50, 7, 8, 4, 7, 38, 9, 10, 12, 6]
     )
-)
+)  # Output: 500 (the container formed by the lines at index 0 and index 10 has the most water, with an area of 500)
+print(
+    solution.maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])
+)  # Output: 49 (the container formed by the lines at index 1 and index 8 has the most water, with an area of 49)

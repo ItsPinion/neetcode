@@ -15,9 +15,6 @@ class Solution:
 
 
 solution = Solution()
-
-
-nums = [-3, 4, 3, 90]
-target = 0
-
-print(solution.twoSum(nums, target))
+print(solution.twoSum([-3, 4, 3, 90], 0))  # Output: [0, 2]
+print(solution.twoSum([2, 7, 11, 15], 9))  # Output: [0, 1]
+print(solution.twoSum([3, 2, 4], 6))  # Output: [1, 2]

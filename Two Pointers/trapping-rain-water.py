@@ -22,6 +22,5 @@ class Solution:
 
 
 solution = Solution()
-height = [0, 2, 0, 3, 1, 0, 1, 3, 2, 1]
-
-print(solution.trap(height))
+print(solution.trap([0, 2, 0, 3, 1, 0, 1, 3, 2, 1]))  # Output: 8
+print(solution.trap([4, 2, 0, 3, 2, 5]))  # Output: 9

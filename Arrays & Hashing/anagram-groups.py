@@ -21,7 +21,10 @@ class Solution:
         return anagrams
 
 
-strs = ["act", "pots", "tops", "cat", "stop", "hat"]
-
 solution = Solution()
-print(solution.groupAnagrams(strs))
+print(
+    solution.groupAnagrams(["act", "pots", "tops", "cat", "stop", "hat"])
+)  # Output: [["act", "cat"], ["pots", "tops", "stop"], ["hat"]]
+print(
+    solution.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
+)  # Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]

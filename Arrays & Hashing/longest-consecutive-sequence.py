@@ -20,7 +20,10 @@ class Solution:
         return longest
 
 
-nums = [2, 20, 4, 10, 3, 4, 5]
 solution = Solution()
-
-print(solution.longestConsecutive(nums))
+print(
+    solution.longestConsecutive([2, 20, 4, 10, 3, 4, 5])
+)  # Output: 4 (the longest consecutive sequence is [2, 3, 4, 5])
+print(
+    solution.longestConsecutive([1, 9, 3, 10, 4, 20, 2])
+)  # Output: 4 (the longest consecutive sequence is [1, 2, 3, 4])
